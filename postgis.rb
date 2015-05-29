@@ -26,7 +26,7 @@ class Postgis < Formula
 
   depends_on "pkg-config" => :build
   depends_on "gpp" => :build
-  depends_on "postgresql"
+  depends_on "postgresql93"
   depends_on "proj"
   depends_on "geos"
 
@@ -136,7 +136,7 @@ class Postgis < Formula
   end
 
   def caveats;
-    pg = Formula["postgresql"].opt_prefix
+    pg = Formula["postgresql93"].opt_prefix
     <<-EOS.undent
       To create a spatially-enabled database, see the documentation:
         http://postgis.net/docs/manual-2.1/postgis_installation.html#create_new_db_extensions
