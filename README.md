@@ -1,2 +1,23 @@
-# homebrew-postgis-for-93
-homebrew formula for postgis to work with homebrew's postgresql93
+homebrew-postgis-for-93
+==============
+
+Custom brew for using postgis with the brew versions postgresql93.
+
+Installation
+------------
+
+It's pretty easy, you just need homebrew version `0.9` or greater and some
+sauce:
+
+    brew tap johnschultz/homebrew-postgis-for-93
+    brew install postgis
+
+If the formula conflicts with one in `mxcl/master`, you can explicitly target this formula with:
+
+    brew install johnschultz/homebrew-postgis-for-93/postgis
+
+Cheers.
+
+Credits
+-------
+README.md shamelessly stolen from chuckg/homebrew-brewg
