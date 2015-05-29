@@ -14,7 +14,7 @@ sauce:
 
 If the formula conflicts with one in `mxcl/master`, you can explicitly target this formula with:
 
-    brew install johnschultz/homebrew-postgis-for-93/postgis
+    brew install johnschultz/postgis-for-93/postgis  # yes without the 'homebrew-'
 
 Cheers.
 
